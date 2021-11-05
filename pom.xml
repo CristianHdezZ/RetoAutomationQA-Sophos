@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>co.com.itglobers.certification</groupId>
-    <artifactId>QAAutomationITGlobers</artifactId>
+    <groupId>co.com.sophos.certification.falabella</groupId>
+    <artifactId>RetoAutomationQA-Sophos</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -205,6 +205,34 @@
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.19.1</version>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-failsafe-plugin</artifactId>
+                <version>2.19.1</version>
+                <configuration>
+                    <includes>
+                        <!--<include>co.com.sophos.certification.falabella.runners.RunnerTests.java</include>-->
+                        <include>**/*.java</include>
+                    </includes>
+                    <argLine>Xmx512m</argLine>
+                    <systemPropertyVariables>
+                        <webdriver.driver>${webdriver.driver}</webdriver.driver>
+                    </systemPropertyVariables>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>integration-test</goal>
+                            <goal>verify</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -217,30 +245,16 @@
             </plugin>
 
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-failsafe-plugin</artifactId>
-                <version>2.19.1</version>
-                <configuration>
-                    <includes>
-                        <include>co.com.itglobers.certification.testqa.runners.RunnerTests.java</include>
-                    </includes>
-                </configuration>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>integration-test</goal>
-                            <goal>verify</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
                 <groupId>net.serenity-bdd.maven.plugins</groupId>
                 <artifactId>serenity-maven-plugin</artifactId>
                 <version>2.3.6</version>
-                <configuration>
-                    <reports>single-page-html</reports>
-                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>net.serenity-bdd</groupId>
+                        <artifactId>serenity-single-page-report</artifactId>
+                        <version>2.3.5</version>
+                    </dependency>
+                </dependencies>
                 <executions>
                     <execution>
                         <id>serenity-report</id>
@@ -251,13 +265,6 @@
                         </goals>
                     </execution>
                 </executions>
-                <dependencies>
-                    <dependency>
-                        <groupId>net.serenity-bdd</groupId>
-                        <artifactId>serenity-single-page-report</artifactId>
-                        <version>2.3.5</version>
-                    </dependency>
-                </dependencies>
             </plugin>
         </plugins>
     </build>
