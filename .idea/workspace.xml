@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cdfc599-64ce-4de8-b9ef-d25f476a3f3b" name="Default Changelist" comment="demo">
+    <list default="true" id="3cdfc599-64ce-4de8-b9ef-d25f476a3f3b" name="Default Changelist" comment="commit de version estable">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sophos/certification/falabella/interactions/apirest/ConsultEmployeeDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/sophos/certification/falabella/interactions/apirest/ConsultEmployeeDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sophos/certification/falabella/interactions/apirest/FilterListEmployees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/sophos/certification/falabella/interactions/apirest/FilterListEmployees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sophos/certification/falabella/tasks/apirest/EmployeeDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/sophos/certification/falabella/tasks/apirest/EmployeeDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sophos/certification/falabella/tasks/ui/AddElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/sophos/certification/falabella/tasks/ui/AddElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sophos/certification/falabella/tasks/ui/AddSeguro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/sophos/certification/falabella/tasks/ui/AddSeguro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sophos/certification/falabella/tasks/ui/OpenThePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/sophos/certification/falabella/tasks/ui/OpenThePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sophos/certification/falabella/tasks/ui/SearchInHomeFalabella.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/sophos/certification/falabella/tasks/ui/SearchInHomeFalabella.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sophos/certification/falabella/tasks/ui/SelectElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/sophos/certification/falabella/tasks/ui/SelectElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sophos/certification/falabella/userinterface/ListProductFalabellaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/sophos/certification/falabella/userinterface/ListProductFalabellaPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sophos/certification/falabella/userinterface/SearchFalabellaPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/sophos/certification/falabella/userinterface/SearchFalabellaPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sophos/certification/falabella/userinterface/SummaryOfOrderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/sophos/certification/falabella/userinterface/SummaryOfOrderPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sophos/certification/falabella/util/ConsumoServicios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/sophos/certification/falabella/util/ConsumoServicios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/com/sophos/certification/falabella/interactions/apirest/SearchListOfEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/com/sophos/certification/falabella/interactions/apirest/SearchListOfEmployee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636096877230</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit de version estable">
+      <created>1636098987598</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1636098987598</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +138,7 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo" />
+    <MESSAGE value="commit de version estable" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit de version estable" />
   </component>
 </project>

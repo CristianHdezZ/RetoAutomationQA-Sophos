@@ -53,8 +53,11 @@ public class SearchListOfEmployee implements Interaction {
                         intStatusCode = obtenerInformacionEmployee.statusCode();
                         adicionarLog(Level.INFO,"Status code: "+intStatusCode);
 
-                        hmDatosEmployee = obtenerInformacionEmployee.body().path("data");
-                        viewEmployee(hmDatosEmployee);
+                        if (intStatusCode==200){
+                            hmDatosEmployee = obtenerInformacionEmployee.body().path("data");
+                            viewEmployee(hmDatosEmployee);
+                        }
+
 
                     }while (intStatusCode!=200);
 
