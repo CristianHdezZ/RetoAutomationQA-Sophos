@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cdfc599-64ce-4de8-b9ef-d25f476a3f3b" name="Default Changelist" comment="" />
+    <list default="true" id="3cdfc599-64ce-4de8-b9ef-d25f476a3f3b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1b89106cd54efb655711b12af7f427e155eff2b2431735ad12b50d86cc77924a.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1b89106cd54efb655711b12af7f427e155eff2b2431735ad12b50d86cc77924a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1b89106cd54efb655711b12af7f427e155eff2b2431735ad12b50d86cc77924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1b89106cd54efb655711b12af7f427e155eff2b2431735ad12b50d86cc77924a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-1b89106cd54efb655711b12af7f427e155eff2b2431735ad12b50d86cc77924a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-1b89106cd54efb655711b12af7f427e155eff2b2431735ad12b50d86cc77924a.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="20U8VDvcG2bG8iLki6YQ63oCuxf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,8 +29,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/co/com/sophos/certification/falabella/stepdefinitions" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -85,6 +96,17 @@
       <updated>1636087829014</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
