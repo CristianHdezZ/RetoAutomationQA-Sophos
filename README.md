@@ -63,3 +63,44 @@ Este proyecto cuenta con la ejecución de dos test:
   - **frontendSearchFalabella.feature**: En este feature se realiza la ejecución de un escenario de agregar un prodcuto en un carro de compra, mapeado en la aplicación    **https://www.falabella.com.co/falabella-co** a través del una data de prueba. 
 
 
+---
+  
+---
+## Instalación
+
+Para instalar el proyecto deben seguir los siguientes pasos:
+  
+**1. Clonar el proyecto**
+
+```
+git clone https://github.com/CristianHdezZ/RetoAutomationQA-Sophos.git
+```
+
+**2. Importar el proyecto**
+  
+Para importar el proyecto debe hacerlo desde el IDE de su preferencia seleccionando la carpeta **"RetoAutomationQA-Sophos"** como un proyecto Maven. 
+  
+  
+**3. Ejecutar el proyecto** 
+
+Para ejecutar el proyecto debe hacerlo a través de uno de los siguientes pasos: 
+  
+**3.1 A través de línea de comando**
+  
+Si se desea realizar a través de la línea de comando se debe ejecutar desde una consola de comandos (de su preferencia) con el comando: 
+
+```
+mvn verify
+```
+  
+**3.2 A través de IDE** 
+  
+Si se desea realizar la ejecución a través del IDE de desarrollo, se debe seleccionar la clase **"RunnerTests.class"** y dar clic derecho, seleccionar la opción que permita correr la prueba. 
+  
+---
+  
+---
+## ️Autores
+* **Cristian Hernandez Z.** - **TCS** - [CristianHdezZ](https://github.com/CristianHdezZ/)
+---
+
