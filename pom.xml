@@ -219,7 +219,6 @@
                         <!--<include>co.com.sophos.certification.falabella.runners.RunnerTests.java</include>-->
                         <include>**/*.java</include>
                     </includes>
-                    <argLine>Xmx512m</argLine>
                     <systemPropertyVariables>
                         <webdriver.driver>${webdriver.driver}</webdriver.driver>
                     </systemPropertyVariables>

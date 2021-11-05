@@ -26,7 +26,7 @@ public class SearchInHomeFalabella implements Task {
                 Click.on(BUTTON_NO_GRACIAS),
                 Enter.keyValues(strKeyWord).into(INPUT_CONSULTAR)
         );
-       // getDriver().manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        // getDriver().manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 
     }
 }

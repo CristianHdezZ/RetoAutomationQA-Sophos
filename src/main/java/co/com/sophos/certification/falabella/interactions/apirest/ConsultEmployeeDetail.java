@@ -46,7 +46,7 @@ public class ConsultEmployeeDetail implements Interaction {
                 adicionarLog(Level.INFO, String.format("Url del servicio: %s", strUrlDetalleEmployee));
                 Response obtenerDetalleDeEmpleado = ConsumoServicios.servicioRestGet(strUrlDetalleEmployee);
 
-               if (obtenerDetalleDeEmpleado !=null){
+                if (obtenerDetalleDeEmpleado !=null){
 
                     intStatusCode = obtenerDetalleDeEmpleado.statusCode();
                     adicionarLog(Level.INFO,"Status code: "+intStatusCode);

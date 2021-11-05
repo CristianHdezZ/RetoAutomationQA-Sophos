@@ -32,10 +32,10 @@ public class FilterListEmployees implements Interaction {
             if (Integer.parseInt(mapaInformacionEmployee.get("employee_salary").toString())<Integer.parseInt(strFilterSalary)){
 
                 adicionarLog(Level.INFO,String.format("\n Id: %s - employee_name: %s - Salary: %s -  Age: %s",
-                mapaInformacionEmployee.get("id"),
-                mapaInformacionEmployee.get("employee_name"),
-                mapaInformacionEmployee.get("employee_salary"),
-                mapaInformacionEmployee.get("employee_age")));
+                        mapaInformacionEmployee.get("id"),
+                        mapaInformacionEmployee.get("employee_name"),
+                        mapaInformacionEmployee.get("employee_salary"),
+                        mapaInformacionEmployee.get("employee_age")));
 
                 hmFiltroDatosEmployees.put(Integer.parseInt(mapaInformacionEmployee.get("id").toString()),mapaInformacionEmployee.get("employee_name").toString());
             }
