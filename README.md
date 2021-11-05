@@ -8,14 +8,12 @@
 	- a) Eclipse 
 	- b) IntelliJ
 
----
-  
----
 ## Descripción
 
 Este proyecto es un reto de automatizacion de API REST y aplicacion Web, se encuentra creado bajo el patrón de diseño Screenplay e integra varios frameworks como Serenity y Cucumber dentro del manejador de proyecto Maven.
 
 Los tests usan tareas (tasks), interacciones (interactions), preguntas (questions), elementos de páginas (userinterface). La estructura completa del proyecto es la siguiente:
+```
     + ## exceptions
         Clases que controlan las posibles excepciones técnicas y de negocios que se presentan durante la ejecución de pruebas
     + ## model
@@ -37,15 +35,24 @@ Los tests usan tareas (tasks), interacciones (interactions), preguntas (question
 la prueba
     + ## features
         La representación de las historias de usuarios en archivos cucumber o .feature
+```
+
 
   
 Este proyecto cuenta con la ejecución de dos test: 
   
-  - **endPointEmployee.feature**: En este feature se realiza la ejecución de un escenario para probar los EndPoints: GET--> http://dummy.restapiexample.com/api/v1/employees y         GET-->http://dummy.restapiexample.com/api/v1/employee/1
-    
-    ##Escenario:
-    
-    Se definen los siguientes criterios para el flujo de la ejecución y tener un alcance y cubrimiento en gran medida de las pruebas automatizadas:
+  - **endPointEmployee.feature**: En este feature se realiza la ejecución de un escenario para probar los EndPoints: 
+  	
+  	GET--> http://dummy.restapiexample.com/api/v1/employees 
+	y  GET-->http://dummy.restapiexample.com/api/v1/employee/1
+        
+	
+
+
+
+  ##Escenario:
+   
+    Se definen los siguientes criterios para el flujo de la ejecución y tener un alcance y cubrimiento en gran medida de las pruebas automatizadas:    
     
     1.	Obtener un listado de todos los empleados. Para ello, se debe ejecutar el siguiente servicio: GET http://dummy.restapiexample.com/api/v1/employees
 
@@ -58,10 +65,12 @@ Este proyecto cuenta con la ejecución de dos test:
      "id": 24,
      "employee_name": "Doris Wilder",
      "employee_salary": 85600,
-     "employee_age": 23,   
+     "employee_age": 23,
+  
+    
 
-  - **frontendSearchFalabella.feature**: En este feature se realiza la ejecución de un escenario de agregar un prodcuto en un carro de compra, mapeado en la aplicación    **https://www.falabella.com.co/falabella-co** a través del una data de prueba. 
 
+- **frontendSearchFalabella.feature**: En este feature se realiza la ejecución de un escenario de agregar un prodcuto en un carro de compra, mapeado en la aplicación    **https://www.falabella.com.co/falabella-co** a través del una data de prueba. 
 
 ---
   
